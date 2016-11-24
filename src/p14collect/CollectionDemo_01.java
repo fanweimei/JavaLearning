@@ -5,10 +5,10 @@ import java.util.*;
 /*
  * Collection 
  * 集合与数组的区别：数组长度固定，集合长度可变；数组只能存一种类型的数据，集合可以存任何对象
+ * Collection共有方法：add,addAll,remove,removeAll,contains, containsAll,clear,retainAll,equals,isEmpty,size,toArray Iterator
  * 分类：
  * 	1.List
  * 		(1)ArrayList
- * 			方法：add,addAll,remove,removeAll,contains, containsAll,clear,retainAll,equals,isEmpty,size,toArray Iterator
  * 		(2)LinkedList
  * 		(3)Vector
  * 	2.Set
@@ -19,7 +19,7 @@ import java.util.*;
  * 
  */
 
-public class CollectionDemo {
+public class CollectionDemo_01 {
 
 	public static void main(String[] args) {
 		ArrayList list = new ArrayList();
