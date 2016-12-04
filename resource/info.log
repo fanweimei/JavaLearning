@@ -1,0 +1,3 @@
+2016-12-04 01:27:44
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at p18io.ExceptionInfo_19.main(ExceptionInfo_19.java:11)
