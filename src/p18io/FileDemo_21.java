@@ -10,6 +10,12 @@ import java.io.IOException;
  * 2.删除
  * 3.判断
  * 4.获取信息
+ * getName();
+ * getPath();
+ * getParent();
+ * getAbsolutePath()
+ * lastModified()
+ * length()
  */
 
 public class FileDemo_21 {
@@ -36,6 +42,11 @@ public class FileDemo_21 {
 		System.out.println(f.isFile()); //判断是否是文件
 		System.out.println(f.isAbsolute());  //判断是否是绝对路径
 		System.out.println(f.isHidden());  //判断是否是隐藏文件
+		
+		//获取
+		System.out.println(f.getPath()); //返回相对路径
+		System.out.println(f.getAbsolutePath()); //返回绝对路径
+		System.out.println(f.getParent()); //返回文件的目录路径
 	}
 
 	public static void main(String[] args) throws IOException {
